@@ -272,6 +272,14 @@ form.sign-in-form {
 }
 
 @media (max-width: 870px) {
+    .logo span{
+    color:rgb(114, 255, 71);
+  }
+
+h1{
+    font-family: 'Ranchers', cursive; 
+    letter-spacing: 2px;
+}
   .container {
     min-height: 800px;
     height: 100vh;
@@ -375,6 +383,14 @@ form.sign-in-form {
 }
 
 @media (max-width: 570px) {
+    .logo span{
+    color:rgb(114, 255, 71);
+  }
+
+h1{
+    font-family: 'Ranchers', cursive; 
+    letter-spacing: 2px;
+}
   form {
     padding: 0 1.5rem;
   }
