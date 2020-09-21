@@ -241,3 +241,33 @@ body::-webkit-scrollbar-thumb {
   background-color: #4360b5;
   outline: 1px solid #4360b5;
 }
+
+
+.page{
+  display: flex;
+ justify-content: center;
+}
+.page ul{
+  display: flex;
+}
+.page ul li{
+padding: 5px;
+border: 2px solid white;
+background-color: #4360b5;
+color: white;
+border-radius: 50px;
+margin:5px;
+cursor: pointer;
+}
+
+.page ul li.active{
+  color: #4360b5;
+  border: 2px solid #4360b5;
+  background-color: #fff;
+}
+
+.page ul li:hover{
+  color: #fff;
+  border: 2px solid#fff;
+  background-color:#82a1ff;
+}
