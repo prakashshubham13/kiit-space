@@ -16,11 +16,11 @@ body{
 
 
 .wrapper{
-  margin: 0px;
+  margin: 10px;
 }
 
 .wrapper .top_navbar{
-  width: calc(100% - 0px);
+  width: calc(100% - 20px);
   height: 60px;
   display: flex;
   position: fixed;
@@ -33,7 +33,7 @@ body{
   height: 100%;
   background: #2e4ead;
   padding: 15px 17px;
-  border-top-left-radius: 0px;
+  border-top-left-radius: 20px;
   cursor: pointer;
 }
 
@@ -95,7 +95,7 @@ body{
 .wrapper .sidebar{
   position: fixed;
   top: 60px;
-  left: 0px;
+  left: 10px;
   background: #2e4ead;
   width: 200px;
   height: 100%;
@@ -270,6 +270,4 @@ cursor: pointer;
   color: #fff;
   border: 2px solid#fff;
   background-color:#82a1ff;
-
-  
 }
