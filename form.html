@@ -26,30 +26,18 @@
             <h2 class="title">Sign in</h2>
             <div class="input-field">
               <i class="fas fa-user"></i>
-              <input type="number" placeholder="Roll no" />
+              <input type="number" placeholder="Roll" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+              type = "number"
+              maxlength = "7" min="1000000" required/>
             </div>
             <div class="input-field">
               <i class="fas fa-lock"></i>
-              <input type="password" placeholder="Password" />
+              <input type="password" placeholder="Password" minlength="8" data-toggle="tooltip" title="Minimum 8 characters and must contain 1 uppercase 1 lowercse and a digit " pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" required/>
             </div>
             <input type="submit" value="Login" class="btn solid" />
             <p class="social-text">Hey!! KiiTian check whats going on at KIIT..</p>
-            <!-- <div class="social-media">
-              <a href="#" class="social-icon">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-              <a href="#" class="social-icon">
-                <i class="fab fa-twitter"></i>
-              </a>
-              <a href="#" class="social-icon">
-                <i class="fab fa-google"></i>
-              </a>
-              <a href="#" class="social-icon">
-                <i class="fab fa-linkedin-in"></i>
-              </a>
-            </div> -->
           </form>
-          <form action="#" class="sign-up-form">
+          <form action="index.html" class="sign-up-form">
             <div class="logo">
                 <h1>
                 K<span>II</span>t-Sp<span>A</span>ce
@@ -59,32 +47,20 @@
             <h2 class="title">Sign up</h2>
             <div class="input-field">
               <i class="fas fa-user"></i>
-              <input type="text" placeholder="Name" />
+              <input type="text" placeholder="Name" minlength="3" required/>
             </div>
             <div class="input-field">
-              <i class="fas fa-envelope"></i>
-              <input type="number" placeholder="Roll" />
+                <i class="fas fa-user"></i>
+              <input type="number" placeholder="Roll" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+              type = "number"
+              maxlength = "7" min="1000000" required/>
             </div>
             <div class="input-field">
               <i class="fas fa-lock"></i>
-              <input type="password" placeholder="Password" />
+              <input type="password" placeholder="Password" minlength="8" data-toggle="tooltip" title="Minimum 8 characters and must contain 1 uppercase 1 lowercse and a digit " pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" required/>
             </div>
             <input type="submit" class="btn" value="Sign up" />
             <p class="social-text">Please,enter your correct roll number</p>
-            <!-- <div class="social-media">
-              <a href="#" class="social-icon">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-              <a href="#" class="social-icon">
-                <i class="fab fa-twitter"></i>
-              </a>
-              <a href="#" class="social-icon">
-                <i class="fab fa-google"></i>
-              </a>
-              <a href="#" class="social-icon">
-                <i class="fab fa-linkedin-in"></i>
-              </a>
-            </div> -->
           </form>
         </div>
       </div>
