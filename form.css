@@ -31,7 +31,7 @@ body{
 .wrapper .top_navbar .hamburger{
   width: 70px;
   height: 100%;
-  background: #2e4ead;
+  background:#5995fd;
   padding: 15px 17px;
   border-top-left-radius: 20px;
   cursor: pointer;
@@ -48,7 +48,7 @@ body{
 .wrapper .top_navbar .top_menu{
   width: calc(100% - 70px);
   height: 100%;
-  background:#2e4ead;
+  background:#5995fd;
   border-top-right-radius: 5px;
   display: flex;
   justify-content: space-between;
@@ -79,7 +79,7 @@ body{
   text-align: center;
   border: 1px solid white;
   border-radius: 50%;
-  color: white; box-shadow: 5px 5px 5px 0px #213a86;
+  color: white; box-shadow: 5px 5px 5px 0px #5995fd;
 }
 
 .wrapper .top_navbar .top_menu ul li a:hover{
@@ -96,7 +96,7 @@ body{
   position: fixed;
   top: 60px;
   left: 10px;
-  background: #2e4ead;
+  background: #5995fd;
   width: 200px;
   height: 100%;
   border-bottom-left-radius: 0px;
@@ -111,7 +111,7 @@ body{
     color: #fff;
     position: relative;
     margin-bottom: 1px;
-    color: #92a6e2;
+    color: #ffffff;
     white-space: nowrap;
     
 }
@@ -147,7 +147,7 @@ body{
 
 .wrapper .sidebar ul li a:hover,
 .wrapper .sidebar ul li a.active{
-  background: #4360b5;
+  background: #38456d;
   color: #fff;
 }
 
@@ -182,7 +182,7 @@ body{
 .ans input{
 padding: 10px;
 border-radius: 7px;
-background-color:#4360b5;
+background-color:#5995fd;
 border:3px solid #cacaca;
 color:white;
 outline:none;
@@ -225,7 +225,7 @@ textarea{
   padding: 5px;
   resize: none;
   border-radius: 8px;
-  border: 2px solid #4360b5;
+  border: 2px solid #5995fd;
   outline: none;
 }
 
@@ -234,12 +234,12 @@ body::-webkit-scrollbar {
 }
  
 body::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 6px #4360b5;
+  box-shadow: inset 0 0 6px #5995fd;
 }
  
 body::-webkit-scrollbar-thumb {
-  background-color: #4360b5;
-  outline: 1px solid #4360b5;
+  background-color: #5995fd;
+  outline: 1px solid #5995fd;
 }
 
 
@@ -253,7 +253,7 @@ body::-webkit-scrollbar-thumb {
 .page ul li{
 padding: 5px;
 border: 2px solid white;
-background-color: #4360b5;
+background-color: #5995fd;
 color: white;
 border-radius: 50px;
 margin:5px;
@@ -262,12 +262,12 @@ cursor: pointer;
 
 .page ul li.active{
   color: #4360b5;
-  border: 2px solid #4360b5;
+  border: 2px solid #2f2f30;
   background-color: #fff;
 }
 
 .page ul li:hover{
   color: #fff;
   border: 2px solid#fff;
-  background-color:#82a1ff;
+  background-color:#3b425a;
 }
